@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Myra Beauty</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">MYRA</div>
+  <nav>
+    <a href="#">Home</a>
+    <button class="login-btn" type="button">Login</button>
+    <a href="cart.html">View Cart</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Luxury Beauty Redefined</h1>
+    <p>Glow with confidence</p>
+  </div>
+</section>
+
+<section class="products" id="productList"></section>
+
+<!-- LOGIN MODAL -->
+<div class="modal" id="loginModal">
+  <div class="modal-content">
+    <h3>Login</h3>
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button id="loginSubmit" type="button">Login</button>
+  </div>
+</div>
+
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
